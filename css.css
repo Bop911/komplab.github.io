@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* МЕНЮ */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* ФОТО */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* СЕКЦІЇ */
+section {
+    margin-bottom: 30px;
+}
